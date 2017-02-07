@@ -646,3 +646,19 @@ nav li a:hover {
 .checkinslist h3 {
     color: #657B83;
 }
+
+input.ng-invalid.ng-touched {
+    border: 1px solid red;
+}
+
+input.ng-valid.ng-touched {
+    border: 1px solid green;
+}
+
+.ng-invalid .btn {
+    background-color: gray;
+}
+
+.error {
+    color: red;
+}
